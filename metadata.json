@@ -1,0 +1,8 @@
+{
+  "name": "Tixo",
+  "description": "A next-generation social platform featuring text-first feeds, immersive reels, and AI-enhanced messaging.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}

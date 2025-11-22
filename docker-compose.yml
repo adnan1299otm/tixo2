@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    ports:
+      - "3000:80"
+    environment:
+      - API_KEY=${API_KEY}
+    restart: always
+
+  # Mock backend services placeholders for full-stack architecture extension
+  # postgres:
+  #   image: postgres:14
+  #   environment:
+  #     POSTGRES_USER: user
+  #     POSTGRES_PASSWORD: password
+  #     POSTGRES_DB: socialverse
+  
+  # redis:
+  #   image: redis:7
